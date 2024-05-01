@@ -29,20 +29,20 @@
 - [x] check for user using email
 - [x] if no user 401
 - [x] if token does not match user token 401
-- [] if correct set
-- [] user.isVerified = true
-- [] user.verified = Date.now()
-- [] user.verificationToken = ''
-- [] save use with instance method
-- [] return msg:'email verified'
+- [x] if correct set
+- [x] user.isVerified = true
+- [x] user.verified = Date.now()
+- [x] user.verificationToken = ''
+- [x] save use with instance method
+- [x] return msg:'email verified'
 
 #### Email Setup
 
-- [] re-watch project 08
-- [] ethereal credentials (create account/login)
-- [] install nodemailer
-- [] create (nodemailerConfig, sendEmail,
-  sendResetPasswordEmail, sendVerficationEmail) files in utils
+- [x] re-watch project 08
+- [x] ethereal credentials (create account/login)
+- [x] install nodemailer
+- [x] create (nodemailerConfig, sendEmail,
+      sendResetPasswordEmail, sendVerificationEmail) files in utils
 
 #### Send Verification Link
 
