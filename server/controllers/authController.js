@@ -34,7 +34,19 @@ const register = async (req, res) => {
   })
 
   const origin = 'http://localhost:3000'
-  // await sendEmail()
+
+  // const tempOrigin = req.get('origin')
+  // console.log('origin', tempOrigin)
+  // const protocol = req.protocol
+  // console.log('protocol', protocol)
+  // const host = req.get('host')
+  // console.log('host', host)
+  // const forwardedHost = req.get('x-forwarded-host')
+  // console.log('forwardedHost', forwardedHost)
+  // const forwardedProtocol = req.get('x-forwarded-proto')
+  // console.log('forwardedProtocol', forwardedProtocol)
+  // console.log(req)
+
   await sendVerificationEmail({
     name: user.name,
     email: user.email,
