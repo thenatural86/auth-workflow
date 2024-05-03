@@ -148,9 +148,19 @@ const verifyEmail = async (req, res) => {
     .json({ msg: 'email verified', verificationToken, email })
 }
 
+const forgotPassword = async (req, res) => {
+  res.send('forgot password')
+}
+
+const resetPassword = async (req, res) => {
+  res.send('reset password')
+}
+
 module.exports = {
   register,
   login,
   logout,
   verifyEmail,
+  forgotPassword,
+  resetPassword,
 }
